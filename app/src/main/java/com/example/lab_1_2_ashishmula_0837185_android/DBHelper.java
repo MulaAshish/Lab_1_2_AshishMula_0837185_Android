@@ -51,8 +51,7 @@ public class DBHelper extends SQLiteOpenHelper {
         values.put(PRODUCT_PRICE, String.valueOf(price));
         values.put(PROVIDER_LAT, String.valueOf(latitude));
         values.put(PROVIDER_LONG, String.valueOf(longitude));
-       // values.put(PRODUCT_ID, Id);
-        //db.insert(TABLE_NAME, null, values);
+
         return sqLiteDatabase.insert(TABLE_NAME,null,values)!= -1;
     }
     public Cursor getAllProducts(){

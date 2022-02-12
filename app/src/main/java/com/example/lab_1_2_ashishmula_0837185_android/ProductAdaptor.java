@@ -60,7 +60,7 @@ public class ProductAdaptor extends ArrayAdapter {
         view.findViewById(R.id.btnEdit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                updateProducts(products);
+                updateProducts(products);
             }
 
             private void updateProducts(final Products products) {
@@ -128,7 +128,7 @@ public class ProductAdaptor extends ArrayAdapter {
         view.findViewById(R.id.btnDelete).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                deleteProducts(products);
+              deleteProducts(products);
             }
             private void deleteProducts(final  Products products) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);

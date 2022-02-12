@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch(view.getId()){
-//            case R.id.btnAddProduct:
-//               addProducts();
-//               break;
+           case R.id.btnAddProduct:
+               addProducts();
+               break;
             case R.id.btnProductsList:
                 startActivity(new Intent(this, ProductsActivity.class));
 
